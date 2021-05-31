@@ -1,0 +1,9 @@
+server:
+  port:8088
+spring:
+  datasource:
+    msdatasource:
+      jdbc-url: jdbc:mysql://10.108.211.120:3306/bdp?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      password: mySQL#h@d00p
+      username: root
+      driver-class-name: com.mysql.jdbc.Driver

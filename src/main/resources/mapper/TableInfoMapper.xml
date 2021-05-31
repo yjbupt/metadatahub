@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bupt.cad.metadatahub.dao.TableInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.bupt.cad.metadatahub.model.po.TableInfo">
+        <id column="id" property="id" />
+        <result column="datasource_id" property="datasourceId" />
+        <result column="table_name" property="tableName" />
+        <result column="table_detail" property="tableDetail" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+</mapper>
